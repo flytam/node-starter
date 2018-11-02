@@ -1,0 +1,31 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "A node simple starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/app.js",
+    "build": "babel src -d dist --source-maps",
+    "pm2": "npm run build && pm2 start pm2.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flytam/node-starter.git"
+  },
+  "author": "flytam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flytam/node-starter/issues"
+  },
+  "homepage": "https://github.com/flytam/node-starter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
