@@ -63,6 +63,6 @@ npx typings install dt~node --global --save
 
 会在根目录下生成 typings 文件夹包含 node 的声明文件
 
-### 单元测试配置
+### 单元测试 Jest
 
-todo
+npm run test
