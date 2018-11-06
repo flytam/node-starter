@@ -1,5 +1,7 @@
 # node-starter
 
+[English document](./README_EN.md)
+
 > 为了不想每次写 node 都去 cv 以前项目配置。保存一份配置在这里以后 copy 用 23333
 
 node web app 快速启动脚手架
@@ -47,7 +49,9 @@ npm run pm2
 ### 自定义
 
 1、pm2 配置 pm2.json
+
 2、命令在 package.json scripts
+
 3、babel 配置在.babelrc
 
 ### 代码格式化
